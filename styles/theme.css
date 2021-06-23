@@ -1,0 +1,691 @@
+
+html {
+  margin:3vw!important;
+  animation:1.0s ease-in;
+}
+
+.nav {
+    line-height: 3em;
+    float: right;
+    background-color:white;
+}
+
+.navbar {
+  background-color:white!important;
+}
+
+.navbar-toggler {
+  border:none;
+  margin-right:4vw;
+}
+
+.nav-right {
+  float:right;
+}
+
+
+.navbar-nav {
+  margin-right:6vw;
+  background:white;
+}
+
+.nav-option {
+    display: inline;
+    margin-left: 6vw;
+    font-weight: normal;
+    color: black;
+    text-decoration-line:none;
+}
+
+.selected {
+    font-weight: 600;
+}
+.nav-option:hover {
+    color: gray;
+}
+
+nav a {
+  font-style: normal;
+  font-size: 14pt;
+  text-decoration: none;
+  color: black;
+  display:inline-block;
+
+  width: 18%;
+
+  margin-bottom: 10px;
+
+}
+
+nav a:hover{
+    background-color: white;
+    color: gray;
+    transition: 0.2s;
+    text-decoration:none;
+} 
+
+#signature {
+  margin-left:10%;
+}
+
+/* Header */
+
+.hero {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+.title {
+    /* margin-left:10%;
+    margin-right:10%; */
+    display:flex;
+    flex-direction: column;
+    line-height:200%;
+    align-content:flex-start;
+    margin:10%;
+}
+
+.top {
+    grid-column: 2 /12;
+  }
+
+/* Back To Top */
+.backtotop {
+  display:none;
+  position: fixed;
+  border-color: transparent;
+  background-color:transparent;
+  color: gray;
+  margin:inherit;
+  right:10%;
+  bottom:10%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 50px;
+  transition:.5s;
+}
+
+.backtotop:hover {
+  background-color: transparent;
+  color:black;
+}
+/* overall page items */
+h2 {
+  margin: 30px;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+body {
+  font-family: Avenir, sans-serif;
+  /* overflow-x:hidden; */
+}
+
+/* home page items */
+
+.subtitle-home {
+  font-size:28px;
+  margin-top:10%;
+  margin-bottom:5%;
+}
+
+.title-intro {
+  margin-top:5%;
+  font-weight: bold;
+  font-size:54px;
+}
+
+.writing-intro {
+  margin-top:5%;
+  text-align:center;
+}
+
+.title-description {
+  font-size:28px;
+  line-height: normal;
+}
+
+.projectSection {
+  margin-left:10%;
+  margin-right:10%;
+  /* display:flex;
+  flex-direction: column;
+  line-height:200%;
+  align-content:flex-start; */
+}
+
+.caption-234 {
+  /* margin-left:2%; */
+  padding-right:3%;
+}
+
+.projectCard {
+  display:flex;
+  flex-direction:row;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+.projectName {
+  font-size:24px;
+  /* padding-left:15%; */
+}
+
+.projectName a {
+  text-decoration:none;
+  font-style: normal;
+  color: black;
+  display:inline-block;
+  /* width: 18%; */
+  margin-bottom: 10px;
+}
+
+.projectName a:hover {
+  background-color: white;
+  color: gray;
+  transition: 0.2s;
+  text-decoration:none;
+}
+
+.projectDesc {
+  font-size:20px;
+  /* padding-left:15%; */
+  /* padding-right:10%; */
+}
+
+.projectRole {
+  font-size:18px;
+  /* padding-left:15%; */
+  color:#777777
+}
+
+.staticprojectLink {
+  border:none;
+  background-color:black;
+  padding:15px;
+  border-radius:8px;
+  color:white;
+  
+}
+
+.projectLink {
+  border:none;
+  background-color:black;
+  padding:15px;
+  border-radius:8px;
+  color:white;
+}
+
+.projectLink a {
+  color:white;
+  text-decoration:none;
+}
+
+.projectLink:hover {
+  opacity:70%;
+  transition:0.3s;
+}
+
+.card-title a {
+  text-decoration:none;
+  font-style: bold;
+  color: black;
+  display:inline-block;
+  /* width: 18%; */
+  margin-bottom: 10px;
+}
+
+.card-title a:hover {
+  background-color: white;
+  color: gray;
+  transition: 0.2s;
+  text-decoration:none;
+}
+
+.card-role {
+  font-size:18px;
+  color:gray;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: gray;
+}
+
+
+#pickupImage {
+  display: block;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  margin-right:7.5%;
+  object-fit: contain;
+  float:right;
+  position:relative;
+}
+
+#taroImage {
+  /* display: block; */
+  max-height:350px;
+  width: auto;
+  height: auto;
+  /* margin-right:15%; */
+  object-fit: contain;
+  /* float:right; */
+  position:relative;
+  border-radius:10px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+#mediumImage {
+  /* display: block; */
+  max-height:350px;
+  width: auto;
+  height: auto;
+  /* margin-right:15%; */
+  object-fit: contain;
+  /* float:right; */
+  position:relative;
+  border-radius:8px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+#mediumImage:hover {
+  opacity:60%;
+  transition:0.3s;
+}
+
+#wardrobeImage {
+  /* display: block; */
+  max-height:350px;
+  width: auto;
+  height: auto;
+  /* margin-right:15%; */
+  object-fit: contain;
+  /* float:right; */
+  position:relative;
+  border-radius:10px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+#wardrobeImage:hover {
+  opacity:60%;
+  transition:0.3s;
+}
+
+.imageWrapper {
+  margin-left:0;
+}
+
+.column {
+  display:inline-block;
+}
+
+.bottomSection {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.mx-5 {
+  margin-right:0!important;
+  margin-left:0!important;
+}
+
+.other-projects {
+  display:flex;
+}
+
+.additional-class {
+  width: fit-content!important;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius:10px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+
+  .card {
+    margin:4%;
+    padding-right:10px;
+    border: none;
+    width: 100%
+  }
+
+
+.card-title {
+  font-size:24px;
+  text-align:left;
+}
+
+.card-text {
+  font-size:18px;
+  margin: 0 auto;
+  text-align:left;
+}
+
+.footer {
+  font-size:16px;
+  text-align:center;
+  margin:5px!important;
+}
+
+.footer-icons {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials {
+  height:30px;
+  margin-right:10px;
+  margin-left:10px;
+  margin-top:10px;
+
+}
+
+.homepage {
+  display:block;
+}
+
+main {
+  margin-bottom: 3em;
+  grid-template-columns: 100%;
+}
+
+.about-me {
+  display:flex;
+}
+
+.link {
+  text-decoration:none;
+}
+
+.link:hover {
+  color:gray;
+  transition: 0.2s;
+}
+
+.cornell-link {
+  color:#b31b1b;
+}
+
+.goldman-link {
+  color:rgb(42, 128, 177);
+  text-decoration:none;
+}
+
+.goldman-link:hover {
+  color:#777777
+}
+
+.dti-link {
+  color:#474747;
+  text-decoration:none;
+}
+
+.dti-link:hover {
+  color:#777777;
+}
+
+.dpd-link {
+  color:#cb433a;
+  text-decoration:none;
+}
+
+/*
+.other {
+  display:grid;
+}
+*/
+
+/* Travels Page */
+#cities {
+  color:blue;
+}
+
+#countries {
+  color:purple;
+}
+
+#continents {
+  color:orange;
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: calc(36px + 36* ((100vw - 320px) / 680));
+    }
+    h2 {
+        font-size: calc(30px + 30 * ((100vw - 320px) / 680));
+    }
+    h3 {
+        font-size: calc(20px + 18 * ((100vw - 320px) / 680));
+    }
+    h4 {
+        font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+    }
+    h5 {
+        font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+    }
+    h6 {
+        font-size: calc(14px + 2 * ((100vw - 320px) / 680));
+    }
+    p, li {
+        font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+    }
+}
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 72px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    p, li {
+        font-size: 20px;
+    }
+}
+
+
+/* portfolio images */
+
+@media screen and (max-width:950px) {
+  .projectCard {
+    display:inline-block;
+    flex-direction:row;
+    padding-top:5%;
+    padding-bottom:5%;
+  }
+
+  #pickupImage {
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    text-align:center;
+    width:100%;
+    height:100%;
+  }
+
+  #taroImage {
+    align-items:center;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width:100%; */
+    height:100%;
+  }
+
+  #taroImage:hover {
+    opacity:60%;
+    transition:0.3s;
+  }
+
+  #veraImage {
+    align-items:center;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width:100%; */
+    height:100%;
+  }
+
+  #wardrobeImage {
+    align-items:center;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width:100%; */
+    height:100%;
+  }
+
+}
+@media screen and (max-width:660px) {
+  #taroImage {
+    width:100%
+  }
+  #veraImage {
+    width:100%
+  }
+  #wardrobeImage {
+    width:100%
+  }
+}
+
+.about-intro {
+  font-size:32px;
+  padding-left:0!important;
+  margin-bottom: 30px;
+  margin-right:5%;
+}
+
+.about-description {
+  font-size:20px;
+  margin-right:5%;
+  margin-bottom:5%;
+}
+
+.photos {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20em;
+  width: 20em;
+  border-radius: 100em;
+} 
+
+.aboutCard {
+  display:flex;
+  flex-direction:row;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+  
+}
+
+@media screen and (max-width:950px) {
+  .aboutCard {
+    display:inline-block;
+    flex-direction:row;
+    padding-top:5%;
+    padding-bottom:5%;
+  }
+
+  .photos {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20em;
+    width: 20em;
+    border-radius: 100em;
+    align-items:center;
+    text-align:center;
+  } 
+
+}
+
+footer {
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+@media screen and (max-width:660px) {
+  footer {
+    margin-top:10%;
+  }
+  li {
+    font-size:15px;
+  }
+  .subtitle-home {
+    font-size:24px;
+  }
+}
+
+.heroImage {
+  width: 100%;
+}
+
+.videos {
+  width:1000px;
+  height:600px;
+  align-items:center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

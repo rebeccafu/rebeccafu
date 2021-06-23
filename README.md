@@ -1,3 +1,5 @@
+# rebeccafu
+personal website for Rebecca Fu
 - 👋 Hi, I’m @rebeccafu
 - 👀 I’m interested in trying new foods : )
 - 🌱 I’m currently learning product design and app prototyping
