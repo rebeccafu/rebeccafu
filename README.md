@@ -1,8 +1,7 @@
 # rebeccafu
 - 👋 Hi, I’m @rebeccafu
-- 👀 I’m interested in trying new foods : )
-- 🌱 I’m currently learning product design and app prototyping
-- 💞️ I’m looking to collaborate on cute and impactful projects!
+- 👀 I’m interested in growth, product design, and investing :)
+- 🌱 Always looking for new podcast and book recs!
 - 📫 How to reach me: email, rf382@cornell.edu
 
 <!---
